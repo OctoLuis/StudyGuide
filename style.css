@@ -112,7 +112,7 @@ p{
     text-decoration: underline red;
 }
 .img-bg {
-    background-image: url("../images/bg.jpeg");
+    background-image: url("https://images.unsplash.com/photo-1569412148958-600837f89a65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80");
     /*Reference: Unsplash ("https://images.unsplash.com/photo-1569412148958-600837f89a65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80");*/
     background-repeat: no-repeat;
     -moz-background-size: cover;
