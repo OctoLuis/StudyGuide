@@ -16,6 +16,7 @@ header {
 }
 body {
     font-family: 'Prata', serif;
+    overflow: hidden;
 }
 h1 {
     font-size: 3rem;
@@ -245,18 +246,26 @@ p{
     .label {
         font-size: 1.8rem;
     }
+    h1 {
+        font-size: 1.2rem;
+    }
 }
 @media screen and (max-height: 720px) and (min-height: 611px) {
     .label {
         font-size: 1.4rem;
+    }
+    h1 {
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-height: 610px) {
     .label {
         font-size: 1.2rem;
     }
+    h1 {
+        font-size: 1.2rem;
+    }
 }
-
 
 
 
