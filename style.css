@@ -1,8 +1,18 @@
+:root {
+     - app-height: 100%
+}
 ::selection {
     background: red;
     color: white;
 }
-
+header {
+    background: #1F1A1F;
+    color: #FFF0F1;
+    height: 100vh;
+    height: var( - app-height);
+    width: 100vw;
+    position: relative;
+}
 header {
     background: #1F1A1F;
     color: #FFF0F1;
@@ -112,7 +122,7 @@ p{
     text-decoration: underline red;
 }
 .img-bg {
-    background-image: url("https://images.unsplash.com/photo-1569412148958-600837f89a65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80");
+    background-image: url("../images/bg.jpeg");
     /*Reference: Unsplash ("https://images.unsplash.com/photo-1569412148958-600837f89a65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80");*/
     background-repeat: no-repeat;
     -moz-background-size: cover;
