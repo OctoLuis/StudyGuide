@@ -4,12 +4,13 @@ const menu = document.getElementById('menu');
 const cover = document.getElementById('cover');
 const notes = document.getElementById('notes');
 
-const appHeight = () => {
-    const doc = document.documentElement
-    doc.style.setProperty(' - app-height', '${window.innerHeight}')
-}
-window.addEventListener('resize', appHeight)
-appHeight()
+// const appHeight = () => {
+//     const doc = document.documentElement
+//     // console.log(window.innerHeight)
+//     doc.style.setProperty(' - app-height', '${window.innerHeight}')
+// }
+// window.addEventListener('resize', appHeight)
+// appHeight()
 
 menu_button.addEventListener('click', ev => {
     menu.style.display = 'block'
