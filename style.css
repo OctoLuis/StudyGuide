@@ -8,7 +8,7 @@
 header {
     background: #1F1A1F;
     color: #FFF0F1;
-    height: 100vh;
+/*     height: 100vh; */
     height: var( - app-height);
     width: 100vw;
     position: relative;
