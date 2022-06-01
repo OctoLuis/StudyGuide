@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<notes>
+    <subject>Web, HTML, &amp; CSS</subject>
+    <overview>
+        This chapter introduces the basic concepts on the Web, HTML, and CSS. Go over the notes and see how well you understand these topics by solving the given problem set.
+    </overview>
+    <topic>
+        <title>Web Servers</title>
+        <content>
+            <entry>
+                The First Entry of Web Server Content
+            </entry>
+            <entry>
+                The Second Entry of Web Server Content
+            </entry>
+        </content>
+    </topic>
+    <topic>
+        <title>Html 5 Fundamentals</title>
+        <content>
+            <entry>
+                The Frist Entry of html Content
+            </entry>
+        </content>
+    </topic>
+    <topic>
+        <title>CSS Basics</title>
+        <content>
+            <entry>
+                The Frist Entry of CSS Content
+            </entry>
+        </content>
+    </topic>
+</notes>
