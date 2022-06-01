@@ -25,6 +25,7 @@ back_button.addEventListener('click', ev => {
 })
 function notes_link_on_click() {
     cover.style.display='none'
+    menu.style.display='none'
     notes.style.display='block'
     menu_button.style.display='block'
 }

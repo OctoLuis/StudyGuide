@@ -100,10 +100,10 @@ p{
 .nav {
     position: fixed;
     color: black;
-    right: 12px;
-    bottom: 10px;
-    padding: 1px 15px 1px 15px;
-    margin: 8px;
+    right: 4px;
+    top: 4px;
+    padding: 1px 12px 1px 12px;
+    margin: 4px;
     border-color: black;
     border-style: solid;
     border-width: 4px;
@@ -129,7 +129,7 @@ p{
     text-decoration: underline red;
 }
 .img-bg {
-    background-image: url("https://images.unsplash.com/photo-1569412148958-600837f89a65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80");
+    background-image: url("../images/bg.jpeg");
     /*Reference: Unsplash ("https://images.unsplash.com/photo-1569412148958-600837f89a65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80");*/
     background-repeat: no-repeat;
     -moz-background-size: cover;
@@ -140,8 +140,8 @@ p{
     opacity: 0.8;
 }
 .intro {
-    width: 90%;
-    height: 90%;
+    width: 86vw;
+    height: 70vh; /* for intro box */
     padding: 20px;
     border-style: solid;
     border-color: black;
@@ -158,13 +158,13 @@ p{
     width: 82vw;
     height: 95vh;
     overflow: scroll;
-    -ms-overflow-style: none;  /* IE and Edge */
+    /*-ms-overflow-style: none;  !* IE and Edge *!*/
     /*scrollbar-width: none;  !* Firefox *!*/
     display: none;
 }
-.overlay::-webkit-scrollbar {
-    display: none;
-}
+/*.overlay::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
 .n-ps {
     overflow: scroll;
 }
@@ -210,6 +210,10 @@ p{
     left: 2rem;
     z-index: 11;
 }
+/*#menu-label {*/
+/*    writing-mode: vertical-rl;*/
+/*    text-orientation: mixed;*/
+/*}*/
 @media screen and (max-width: 1285px) and (min-width: 1103px) {
     .l-child {
         width: 30%;
@@ -271,6 +275,15 @@ p{
     #options {
         top: 1rem;
         left: 1rem;
+    }
+    .nav {
+        border-width: 2px;
+    }
+    .menu-label {
+        font-size: 1.2rem;
+    }
+    .label {
+        left: 0.2rem;
     }
 }
 @media only screen and (max-width: 1285px) and (min-width: 1103px) {
@@ -357,6 +370,15 @@ p{
         top: 0.8rem;
         left: 0.8rem;
     }
+    .nav {
+        border-width: 2px;
+    }
+    .menu-label {
+        font-size: 1.2rem;
+    }
+    .label {
+        left: 0.2rem;
+    }
 }
 @media only screen and (max-width: 300px)  {
     #cover {
@@ -385,6 +407,15 @@ p{
     #options {
         top: 0.8rem;
         left: 0.8rem;
+    }
+    .nav {
+        border-width: 2px;
+    }
+    .menu-label {
+        font-size: 1.2rem;
+    }
+    .label {
+        left: 0.2rem;
     }
 }
 @media screen and (max-height: 750px) and (min-height: 721px) {
