@@ -82,9 +82,11 @@ p{
 }
 .l-child {
     width: 40%;
+    height: -webkit-fill-available;
 }
 .r-child {
     width: 60%;
+    height: -webkit-fill-available;
     box-shadow: -20px 0 20px 0 black;
     overflow: auto;
 }
