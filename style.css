@@ -6,6 +6,7 @@ html {
 }
 body {
     font-family: 'Prata', serif;
+    /*background: #1F1A1F;*/
     height: 100vh;
     height: -webkit-fill-available;
     overflow: hidden;
@@ -80,13 +81,16 @@ p{
     float: left;
     padding: 20px;
 }
+.hwfa {
+    height: -webkit-fill-available;
+}
 .l-child {
     width: 40%;
-    height: -webkit-fill-available;
+    /*height: -webkit-fill-available;*/
 }
 .r-child {
     width: 60%;
-    height: -webkit-fill-available;
+    /*height: -webkit-fill-available;*/
     box-shadow: -20px 0 20px 0 black;
     overflow: auto;
 }
@@ -149,10 +153,9 @@ p{
     position: relative;
     background-color: #FFF0F1;
     color: black;
-    top: 0;
     z-index: 0;
     width: 82vw;
-    height: 94vh;
+    height: 95vh;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     /*scrollbar-width: none;  !* Firefox *!*/
