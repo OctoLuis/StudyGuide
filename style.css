@@ -8,6 +8,7 @@ body {
     font-family: 'Prata', serif;
     height: 100vh;
     height: -webkit-fill-available;
+    overflow: hidden;
 }
 ::selection {
     background: red;
@@ -17,6 +18,7 @@ header {
     background: #1F1A1F;
     color: #FFF0F1;
     height: 100vh;
+    height: -webkit-fill-available;
     /*height: var( - app-height);*/
     width: 100vw;
     position: relative;
@@ -55,7 +57,7 @@ a:hover {
 p{
     font-size: 1.2rem;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
 }
 .df {display: flex}
 .aic {align-items: center}
@@ -89,19 +91,19 @@ p{
 .tdn {
     text-decoration: none;
 }
-/*.nav {*/
-/*    position: fixed;*/
-/*    color: black;*/
-/*    right: 12px;*/
-/*    top: 12px;*/
-/*    padding: 1px 15px 1px 15px;*/
-/*    margin: 8px;*/
-/*    border-color: black;*/
-/*    border-style: solid;*/
-/*    border-width: 4px;*/
-/*    z-index: 10;*/
-/*    background: #FFF8F7;*/
-/*}*/
+.nav {
+    position: fixed;
+    color: black;
+    right: 12px;
+    bottom: 10px;
+    padding: 1px 15px 1px 15px;
+    margin: 8px;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    z-index: 20;
+    background: #FFF8F7;
+}
 /*.navl {*/
 /*    display: none;*/
 /*}*/
@@ -169,9 +171,6 @@ p{
 .white {
     color: white;
 }
-.house {
-    font-size: 2rem;
-}
 .house:hover {
     text-decoration: underline red;
 }
@@ -182,18 +181,12 @@ p{
     display: block;
 }
 #heading {
-    justify-content: space-between;
-    display: flex;
-    position: fixed;
-    padding: 20px;
-    width: 82vw;
-    background-color: #B39698;
-    border-bottom: 2px solid black;
+    padding: 1rem;
 }
 #content {
     position: relative;
     z-index: -1;
-    margin-top: 60px;
+    margin-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -404,7 +397,7 @@ p{
         font-size: 1.4rem;
     }
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     .r-child {
         box-shadow: -8px 0 8px 0 black;
@@ -415,7 +408,7 @@ p{
         font-size: 1.2rem;
     }
     h1 {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
     .r-child {
         box-shadow: -4px 0 4px 0 black;

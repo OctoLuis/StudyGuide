@@ -1,4 +1,4 @@
-const menu_button = document.getElementById('menu-button');
+// const menu_button = document.getElementById('menu-button');
 const back_button = document.getElementById('back-button');
 const menu = document.getElementById('menu');
 const cover = document.getElementById('cover');
@@ -12,9 +12,12 @@ const notes = document.getElementById('notes');
 // window.addEventListener('resize', appHeight)
 // appHeight()
 
-menu_button.addEventListener('click', ev => {
+// menu_button.addEventListener('click', ev => {
+//     menu.style.display = 'block'
+// })
+function display_menu() {
     menu.style.display = 'block'
-})
+}
 back_button.addEventListener('click', ev => {
     menu.style.display='none'
 })
