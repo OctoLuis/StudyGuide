@@ -6,7 +6,7 @@ html {
 }
 body {
     font-family: 'Prata', serif;
-    /*background: #1F1A1F;*/
+    background: #1F1A1F;
     height: 100vh;
     height: -webkit-fill-available;
     overflow: hidden;
@@ -109,6 +109,7 @@ p{
     border-width: 4px;
     z-index: 20;
     background: #FFF8F7;
+    display: none;
 }
 /*.navl {*/
 /*    display: none;*/
