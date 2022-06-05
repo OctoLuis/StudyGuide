@@ -5,38 +5,17 @@
 <!--    <meta name="x-apple-disable-message-reformatting">-->
     <meta name="viewport" content="width=device-width">
     <title>Intro to Web Technologies</title>
-
-    <link rel="stylesheet" href="shared/style/style.css">
+    <link rel="stylesheet" href="../shared/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        let bg_image = new Image();
+        bg_image.src = '../shared/images/bg.jpeg';
+    </script>
 </head>
 <body>
-    <div class="nav" id="menu-button">
-        <h2 class="menu-label"><a class="tdn" href="#" onclick="display_menu()">menu</a></h2>
-    </div>
-    <header class="df aic jcc" id="menu">
-        <div id="options">
-            <h1><a class="white" href="#" onclick="go_home()">Home</a> </h1>
-            <h1><br/><a id="back-button" class="white" href="#">Back</a></h1>
-        </div>
-        <div class="float l-child img-bg inv-color"></div>
-        <div class="df jcc aic float r-child">
-            <div class="intro">
-                <h1>Unit 1<br/><a href="#" onclick="notes_link_on_click('unit1')">Introduction to Web, HTML, and CSS</a></h1>
-                <h1>Unit 2<br/><a href="#" onclick="notes_link_on_click('unit2')">Client-Side Scripting in JavaScript</a></h1>
-                <h1>Unit 3<br/><a href="#" onclick="notes_link_on_click('unit3')">XML &amp; Ajax</a></h1>
-            </div>
-        </div>
-    </header>
     <header class="df aic jcc">
-        <div class="overlay" id="notes">
-            <div class="n-ps">
-                <div id="content">
-<!--                    <h1 id="heading">Web, HTML, &amp; CSS</h1>-->
-                </div>
-            </div>
-        </div>
         <div class="label">Introduction to Web Technology</div>
         <div id="cover">
             <div class="float l-child hwfa img-bg">
@@ -44,14 +23,15 @@
             </div>
             <div class="df jcc aic float hwfa r-child">
                 <div class="intro">
-                    <h1>Unit 1<br/><a id="unit1" href="#" onclick="notes_link_on_click(this.id)">Introduction to Web, HTML, and CSS</a> </h1>
-                    <h1>Unit 2<br/><a id="unit2" href="#" onclick="notes_link_on_click(this.id)">Client-Side Scripting in JavaScript</a></h1>
-                    <h1>Unit 3<br/><a id="unit3" href="#" onclick="notes_link_on_click(this.id)">XML &amp; Ajax</a></h1>
+                    <h1>Unit 1<br/><a id="unit1" href="learn.html" onclick="getUnitID(this.id)">Introduction to Web, HTML, and CSS</a> </h1>
+                    <h1>Unit 2<br/><a id="unit2" href="learn.html" onclick="getUnitID(this.id)">Client-Side Scripting in JavaScript</a></h1>
+                    <h1>Unit 3<br/><a id="unit3" href="learn.html" onclick="getUnitID(this.id)">XML &amp; Ajax</a></h1>
                 </div>
             </div>
         </div>
     </header>
 </body>
+<!--<script  src="scripts/learn_page.js"></script>-->
 <script  src="scripts/script.js"></script>
-<script  src="scripts/requestNotes.js"></script>
+<script  src="scripts/request_notes.js"></script>
 </html>
