@@ -25,8 +25,8 @@
             <choice>var</choice>
             <choice>"nothing"</choice>
         </choices>
-        <answer>1</answer>
         <answer>2</answer>
+        <answer>3</answer>
         <answer>4</answer>
         <explanation>The Correct Answer is var, let, and "nothing". </explanation>
     </question>
